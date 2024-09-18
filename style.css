@@ -1,0 +1,115 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #181818;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #202020;
+}
+
+.text-section {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.text-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.image-section {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    width: 175px;
+    border-radius: 15px;
+    margin-left: 350px;
+    margin-top: 15px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 5%;
+    height: 100%;
+    background-color: #414141;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px;
+    box-sizing: border-box;
+}
+
+.overlay p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.services {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.services h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: #202020;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.icon {
+    font-size: 30px;
+    color: #ffa500;
+    margin-bottom: 10px;
+}
+
+a{
+color: #167893;
+}
